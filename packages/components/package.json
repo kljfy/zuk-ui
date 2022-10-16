@@ -1,0 +1,19 @@
+{
+  "name": "@kljfy/zuk-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "module":"es/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build & esno build/buildLess"
+  },
+  "files": [
+    "es",
+    "lib"
+  ],
+  "typings": "lib/index.d.ts",
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
